@@ -14,6 +14,8 @@ class IssueCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
+    print(issue.id);
+    print(issue.screenshotsLink);
     return Card(
       margin: EdgeInsets.all(10),
       elevation: 0,
@@ -39,10 +41,10 @@ class IssueCard extends StatelessWidget {
                 height: 0.214 * size.height,
                 child: AspectRatio(
                   aspectRatio: size.width / 0.214 * size.height,
-                  child: Image.network(
-                    issue.screenshotsLink![0],
-                    fit: BoxFit.cover,
-                  ),
+                  // child: Image.network(
+                  //   issue.screenshotsLink![0],
+                  //   fit: BoxFit.cover,
+                  // ),
                 ),
               ),
               Container(

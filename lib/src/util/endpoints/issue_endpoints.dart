@@ -1,4 +1,4 @@
-/// Class for API endpoints to access issues on BugHeist.
+/// Class for API endpoints to access issues on BLT.
 class IssueEndPoints {
   IssueEndPoints._();
 

@@ -1,4 +1,4 @@
-import 'package:bugheist/src/util/api/user_api.dart';
+import 'package:blt/src/util/api/user_api.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -12,7 +12,7 @@ import '../../util/api/issues_api.dart';
 import '../../components/issuechip.dart';
 import '../../providers/authstate_provider.dart';
 
-/// Page that displays the stats of a user registered on BugHeist,
+/// Page that displays the stats of a user registered on BLT,
 /// shows dummy data for Guest login.
 class UserProfile extends ConsumerStatefulWidget {
   const UserProfile({
@@ -76,7 +76,7 @@ class _UserProfileState extends ConsumerState<UserProfile> {
                 return ListTile(
                   leading: Text("#${issue.id}"),
                   title: Text(
-                    issue.description.substring(0, 24) + "...",
+                    issue.description.substring(0, 15) + "...",
                   ),
                   trailing: IssueStatusChip(
                     issue: issue,
@@ -213,7 +213,8 @@ class _UserProfileState extends ConsumerState<UserProfile> {
           IconButton(
             onPressed: () async {
               final ImagePicker _picker = ImagePicker();
-              final XFile? image = await _picker.pickImage(source: ImageSource.gallery);
+              final XFile? image =
+                  await _picker.pickImage(source: ImageSource.gallery);
               if (image == null) {
                 return;
               }

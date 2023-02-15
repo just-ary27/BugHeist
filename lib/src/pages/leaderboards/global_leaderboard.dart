@@ -101,7 +101,7 @@ class _GlobalLeaderBoardPageState extends State<GlobalLeaderBoardPage> {
                   Container(
                     padding: EdgeInsets.fromLTRB(0, 0, 0, 16),
                     child: Text(
-                      "These are the all time best bug finders on BugHeist.",
+                      "These are the all time best bug finders on BLT.",
                       style: GoogleFonts.aBeeZee(
                         textStyle: TextStyle(
                           color: Color(0xFF737373),

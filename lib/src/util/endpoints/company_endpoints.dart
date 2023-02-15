@@ -1,4 +1,4 @@
-/// Class for API endpoints needed to access companies/domains on bugheist.
+/// Class for API endpoints needed to access companies/domains on BLT.
 class CompanyEndpoints {
   CompanyEndpoints._();
 

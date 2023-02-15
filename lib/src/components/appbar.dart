@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../routes/routing.dart';
 import '../components/searchbar.dart';
@@ -7,8 +6,8 @@ import '../components/searchbar.dart';
 /// The app's main Appbar
 AppBar buildAppBar({required BuildContext context}) {
   return AppBar(
-    title: SvgPicture.asset(
-      'assets/bugheist_logo.svg',
+    title: Image.asset(
+      'assets/bugheist_logo.png',
       fit: BoxFit.cover,
       height: 30,
     ),
@@ -20,7 +19,7 @@ AppBar buildAppBar({required BuildContext context}) {
         onPressed: () {
           showSearch(
             context: context,
-            delegate: BugHeistSearchDelegate(),
+            delegate: BLTSearchDelegate(),
           );
           // do something
         },

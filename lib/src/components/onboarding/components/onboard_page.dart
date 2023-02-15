@@ -69,7 +69,7 @@ class _OnboardPageState extends State<OnboardPage>
                     offset: Offset(heroAnimation.value, 0),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 60),
-                      child: SvgPicture.asset(
+                      child: Image.asset(
                         widget.pageModel.imagePath,
                         height: 200,
                       ),

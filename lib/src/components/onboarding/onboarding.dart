@@ -20,7 +20,8 @@ class _OnboardingState extends State<Onboarding> {
   @override
   void initState() {
     super.initState();
-    onboardData[2].description = '${widget.stats["bugs"]} Bugs\n${widget.stats["users"]} Users\n${widget.stats["hunts"]} Hunts\n${widget.stats["domains"]} Domains';
+    onboardData[2].description =
+        '${widget.stats["bugs"]} Bugs\n${widget.stats["users"]} Users\n${widget.stats["hunts"]} Hunts\n${widget.stats["domains"]} Domains';
   }
 
   @override
@@ -75,7 +76,7 @@ class _OnboardingState extends State<Onboarding> {
                   Padding(
                     padding: const EdgeInsets.only(left: 20.0),
                     child: Text(
-                      'Explore BugHeist',
+                      'Explore BLT',
                       style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.bold,
