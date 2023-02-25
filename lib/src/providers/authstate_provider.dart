@@ -1,4 +1,4 @@
-import 'package:bugheist/src/util/api/user_api.dart';
+import 'package:blt/src/util/api/user_api.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
@@ -62,7 +62,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthState>> {
         state = AsyncValue.data(AuthState.loggedIn);
         read(loginProvider.notifier).setUserLogin();
         Navigator.of(context).pushNamed(
-            RouteManager.homePage,
+          RouteManager.homePage,
         );
         ScaffoldMessenger.of(context).clearSnackBars();
       }
@@ -70,9 +70,7 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthState>> {
     return true;
   }
 
-  Future<void> rememberUser(
-    Map<String, String?> userCreds
-  ) async {
+  Future<void> rememberUser(Map<String, String?> userCreds) async {
     await storage.write(
       key: "username",
       value: userCreds["username"],
@@ -89,8 +87,8 @@ class AuthNotifier extends StateNotifier<AsyncValue<AuthState>> {
   }
 
   /// Do a user type authentication.
-  Future<void> userLogin(
-      Map<String, String?> userCreds, bool rememberMe, BuildContext parentContext) async {
+  Future<void> userLogin(Map<String, String?> userCreds, bool rememberMe,
+      BuildContext parentContext) async {
     state = AsyncValue.data(AuthState.authenticating);
     SnackBar authSnack = SnackBar(
       content: Text("Authenticating ..."),

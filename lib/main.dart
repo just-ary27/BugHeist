@@ -3,5 +3,5 @@ import 'src/app.dart';
 
 // Application's entry point
 void main() {
-  runApp(BugHeist());
+  runApp(BLT());
 }

@@ -1,4 +1,4 @@
-/// Class for API endpoints needed to access users data on BugHeist.
+/// Class for API endpoints needed to access users data on BLT.
 class UserEndPoints {
   UserEndPoints._();
 

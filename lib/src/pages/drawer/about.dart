@@ -1,9 +1,9 @@
-import 'package:bugheist/src/constants/about_constants.dart';
+import 'package:blt/src/constants/about_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Page for describing the BugHeist project.
+/// Page for describing the BLT project.
 class AboutPage extends StatelessWidget {
   const AboutPage({Key? key}) : super(key: key);
 
@@ -29,15 +29,15 @@ class AboutPage extends StatelessWidget {
           children: [
             Container(
               padding: EdgeInsets.fromLTRB(0, 36, 0, 24),
-              child: SvgPicture.asset(
-                'assets/bugheist_logo.svg',
+              child: Image.asset(
+                'assets/bugheist_logo.png',
                 width: 169.42,
               ),
             ),
             Container(
               padding: EdgeInsets.fromLTRB(0, 0, 0, 24),
               child: Text(
-                aboutBugHeist,
+                aboutBLT,
                 style: GoogleFonts.aBeeZee(
                   textStyle: TextStyle(
                     color: Color(0xFF737373),

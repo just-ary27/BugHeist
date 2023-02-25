@@ -2,7 +2,7 @@
 //  ShareViewController.swift
 //  ShareExtension
 //
-//  Created by BugHeist on 16/04/21.
+//  Created by BLT on 16/04/21.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ import Photos
 
 class ShareViewController: SLComposeServiceViewController {
     // This should be your host app bundle identifier
-    let hostAppBundleIdentifier = "com.apps.bugheist"
+    let hostAppBundleIdentifier = "com.apps.bltflutter"
     let sharedKey = "ShareKey"
     var sharedMedia: [SharedMediaFile] = []
     var sharedText: [String] = []
