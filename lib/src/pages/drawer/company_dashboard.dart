@@ -62,7 +62,7 @@ class _CompanyDashBoardPageState extends ConsumerState<CompanyDashBoardPage> {
             Navigator.of(context).pop();
           },
         ),
-        title: Text("BugHeist"),
+        title: Text("OWASP BLT"),
         actions: [
           IconButton(
             onPressed: () {},

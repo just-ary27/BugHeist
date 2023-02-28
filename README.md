@@ -1,22 +1,5 @@
-
-<!-- <div align=center>
-    <img src="./assets/logo_white.svg" width=400> 
-</div> -->
-<!-- <hr><br> -->
-
-<!-- <img src="https://api.codemagic.io/apps/62313f4cc7f7cf30b70c778b/62313f4cc7f7cf30b70c778a/status_badge.svg"><br/> -->
-
 ## BLT-Flutter Mobile App
 `Report Issues, Win Prizes!`
-
-<!-- <div>
-    <br/>
-    <img src="./assets/github/gh_screen1.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen2.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen3.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen4.png" width=150> &emsp;
-    <br/><br/>
-</div> -->
 
 ### Check existing issues
 Find the bugs and issues in current websites, maybe help fixing 'em too?
@@ -46,9 +29,9 @@ _Please make sure `flutter analyze` works before submitting the pull request._
 - ### Are you a designer?
     We got your back! If you want to help up with the UI mockups, design and prototyping refer the below links:
 
-    - New Design file: https://www.figma.com/file/NYD5WZzJywnO338lchnece/BugHeist?node-id=7%3A634
-    - Old design file: https://www.figma.com/file/s0xuxeU6O2guoWEfA9OElZ/Bugheist-Full-Design?node-id=513%3A771
+    - New Design file: add new renamed design file
+    - Old design file: https://www.figma.com/file/s0xuxeU6O2guoWEfA9OElZ/Design?node-id=513%3A771
     
 <br/>
 
-_Looking for the BugHeist website? Check it out [here](https://www.bugheist.com)!_
+_Looking for more info on BLT? Check it out [here](https://owasp.org/www-project-bug-logging-tool/)!_
