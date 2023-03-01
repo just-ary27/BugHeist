@@ -1,22 +1,5 @@
-
-<!-- <div align=center>
-    <img src="./assets/logo_white.svg" width=400> 
-</div> -->
-<!-- <hr><br> -->
-
-<!-- <img src="https://api.codemagic.io/apps/62313f4cc7f7cf30b70c778b/62313f4cc7f7cf30b70c778a/status_badge.svg"><br/> -->
-
 ## BLT-Flutter Mobile App
 `Report Issues, Win Prizes!`
-
-<!-- <div>
-    <br/>
-    <img src="./assets/github/gh_screen1.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen2.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen3.png" width=150> &emsp;
-    <img src="./assets/github/gh_screen4.png" width=150> &emsp;
-    <br/><br/>
-</div> -->
 
 ### Check existing issues
 Find the bugs and issues in current websites, maybe help fixing 'em too?
