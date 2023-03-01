@@ -7,7 +7,7 @@ import '../components/searchbar.dart';
 AppBar buildAppBar({required BuildContext context}) {
   return AppBar(
     title: Image.asset(
-      'assets/bugheist_logo.png',
+      'assets/blt_logo.png',
       fit: BoxFit.cover,
       height: 30,
     ),

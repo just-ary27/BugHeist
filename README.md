@@ -46,9 +46,8 @@ _Please make sure `flutter analyze` works before submitting the pull request._
 - ### Are you a designer?
     We got your back! If you want to help up with the UI mockups, design and prototyping refer the below links:
 
-    - New Design file: https://www.figma.com/file/NYD5WZzJywnO338lchnece/BugHeist?node-id=7%3A634
-    - Old design file: https://www.figma.com/file/s0xuxeU6O2guoWEfA9OElZ/Bugheist-Full-Design?node-id=513%3A771
+    - New Design file: https://www.figma.com/file/NYD5WZzJywnO338lchnece/BLT?node-id=7%3A634&t=gjDWzr6qy82jpUQa-1
     
 <br/>
 
-_Looking for the BugHeist website? Check it out [here](https://www.bugheist.com)!_
+_Looking for the BLT website? Check it out [here](https://www.owasp.blt.org)!_

@@ -2,7 +2,7 @@
 class IssueEndPoints {
   IssueEndPoints._();
 
-  static const String baseUrl = "https://www.bugheist.com/api/v1/";
+  static const String baseUrl = "https://www.blt.owasp.org/api/v1/";
 
   static const String issues = baseUrl + "issues/";
 

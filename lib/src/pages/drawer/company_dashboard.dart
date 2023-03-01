@@ -62,7 +62,7 @@ class _CompanyDashBoardPageState extends ConsumerState<CompanyDashBoardPage> {
             Navigator.of(context).pop();
           },
         ),
-        title: Text("BugHeist"),
+        title: Text("blt"),
         actions: [
           IconButton(
             onPressed: () {},
@@ -98,7 +98,7 @@ class _CompanyDashBoardPageState extends ConsumerState<CompanyDashBoardPage> {
                     color: companyColor.withOpacity(0.5),
                     image: DecorationImage(
                       image: NetworkImage(
-                        "https://storage.googleapis.com/bhfiles/logos/https:/bugheist.com.jpg",
+                        "https://storage.googleapis.com/bhfiles/logos/https:/www.blt.owasp.org.jpg",
                       ),
                       fit: BoxFit.cover,
                     ),
@@ -117,7 +117,7 @@ class _CompanyDashBoardPageState extends ConsumerState<CompanyDashBoardPage> {
                         child: Row(
                           children: [
                             Text(
-                              "BugHeist",
+                              "blt",
                               style: GoogleFonts.ubuntu(
                                 textStyle: TextStyle(
                                   fontWeight: FontWeight.bold,

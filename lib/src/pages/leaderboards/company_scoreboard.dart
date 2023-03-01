@@ -50,7 +50,7 @@ class _CompanyScoreBoardPageState extends State<CompanyScoreBoardPage> {
 
   @override
   void initState() {
-    var paginatedUrl = 'https://www.bugheist.com/api/v1/scoreboard/';
+    var paginatedUrl = 'https://www.blt.owasp.org/api/v1/scoreboard/';
     _getObj = LeaderboardApiClient.getScoreBoardData(paginatedUrl);
     super.initState();
   }

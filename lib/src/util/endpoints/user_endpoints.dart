@@ -2,7 +2,7 @@
 class UserEndPoints {
   UserEndPoints._();
 
-  static const String baseUrl = "https://www.bugheist.com/";
+  static const String baseUrl = "https://www.blt.owasp.org/";
 
   static const String userInfo = baseUrl + "api/v1/profile/";
 

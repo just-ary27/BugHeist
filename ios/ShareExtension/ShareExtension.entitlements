@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
     <array>
-        <string>applinks:bugheist.com</string>
+        <string>applinks:bltowasp.org</string>
     </array>
 </dict>
 </plist>

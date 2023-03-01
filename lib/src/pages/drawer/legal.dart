@@ -32,7 +32,7 @@ class LegalPage extends StatelessWidget {
             Container(
               padding: EdgeInsets.fromLTRB(0, 36, 0, 24),
               child: Image.asset(
-                'assets/bugheist_logo.png',
+                'assets/blt_logo.png',
                 width: 169.42,
               ),
             ),

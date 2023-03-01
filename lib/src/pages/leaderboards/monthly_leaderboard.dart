@@ -47,7 +47,7 @@ class _MonthlyLeaderBoardPageState extends State<MonthlyLeaderBoardPage> {
 
   @override
   void initState() {
-    var paginatedUrl = 'https://www.bugheist.com/api/v1/userscore/';
+    var paginatedUrl = 'https://www.blt.owasp.org/api/v1/userscore/';
     _getObj = LeaderboardApiClient.getLeaderData(paginatedUrl);
     super.initState();
   }
