@@ -1,3 +1,5 @@
+# GSoC'22 project
+This repo includes all the work done during my time as a GSoC'22 contributor.
 
 <div align=center>
     <img src="./assets/logo_white.png" width=400> 
@@ -52,3 +54,12 @@ _Please make sure `flutter analyze` works before submitting the pull request._
 <br/>
 
 _Looking for the BugHeist website? Check it out [here](https://www.bugheist.com)!_
+
+<div align=center>
+    <hr>
+    <p>Contributed with ❤️ by 
+        <a href="https://justary27.web.app">
+            <img src="https://user-images.githubusercontent.com/76696648/176264414-6b9a9549-cb25-41f3-9e00-d857bd8bd7cf.svg" align=center height=40>
+        </a>
+    </p>
+</div>
